@@ -1,4 +1,4 @@
-/* Purple Shell Interactive — shared styles for every page. No fonts, no scripts, no trackers. */
+/* Shared styles for every page. No fonts, no scripts, no trackers. */
 
 :root {
   color-scheme: light dark;
@@ -50,28 +50,11 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-header a::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background: var(--accent);
-}
 
 h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 0.3rem; }
 h2 { font-size: 1.15rem; margin-top: 2rem; }
 
 .muted { color: var(--muted); font-size: 0.9rem; }
-
-.games { list-style: none; padding: 0; }
-.games li {
-  padding: 16px;
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--accent);
-  border-radius: 6px;
-}
 
 hr { margin: 3rem 0; border: none; border-top: 1px solid var(--line); }
 
